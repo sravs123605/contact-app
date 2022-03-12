@@ -1,0 +1,63 @@
+<html>
+<body>
+<head>
+<h1><center>Contact Form and Contact List Page<center></h1>
+<br>
+<br>
+<h3><center> Add Contacts</center></h3>
+<br>
+<center><form action="/action_page.php">
+    <label for="name"> Name </label>
+    <input type="text" id="name" name="name"></center>
+<center><form action="/action_page.php">
+    <label for="tel"> Ph No </label>
+    <input type="tel" id="tel" name="tel"></center>
+<br>
+<center><form action="/action_page.php">
+   <label for="email"> Email</label>
+   <input type="text" id="email" name="email"></center>
+<br>
+<center>
+
+<button type="save" class="savebtn" style="background-color:Blue;">Save</button>
+</center>
+<br><br>
+<h3><center>My Contacts<center></h3>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Ph No</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>Virat Kohil</td>
+    <td>9191912321</td>
+    <td>viratkohil@bcci.in</td>
+  </tr>
+  <tr>
+    <td>Dhoni</td>
+    <td>9122321122</td>
+    <td>dhoni@csk.in</td>
+  </tr>
+</table>
+
+</head>
+</body>
+</html>
